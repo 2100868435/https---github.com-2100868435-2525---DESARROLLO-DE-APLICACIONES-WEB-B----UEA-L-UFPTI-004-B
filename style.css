@@ -1,0 +1,28 @@
+/* Estilo personalizado */
+.btn-primary {
+  background-color: #33d6ff;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+body {
+    background: #72d8a5;
+}
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-color: #faf8f9;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
