@@ -1,28 +1,50 @@
-/* Estilo personalizado */
-.btn-primary {
-  background-color: #33d6ff;
-  border: none;
-  transition: transform 0.3s ease;
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
 }
 
-body {
-    background: #72d8a5;
+h1 {
+  color: #333333;
 }
-.btn-primary:hover {
+
+.controls {
+  margin-bottom: 20px;
+}
+
+input[type="url"] {
+  width: 300px;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.gallery img:hover {
   transform: scale(1.05);
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  transition: transform 0.3s ease;
+.selected {
+  box-shadow: 0 0 10px 5px #ff001e;
+  border: 3px solid #00a2ff;
 }
 
-@media (max-width: 576px) {
-  body {
-    background-color: #faf8f9;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-}
