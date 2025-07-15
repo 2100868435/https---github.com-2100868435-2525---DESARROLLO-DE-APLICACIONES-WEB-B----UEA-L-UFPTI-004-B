@@ -1,13 +1,6 @@
-/* Personalización simple */
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
-}
-
-h1, h2 {
-  color: #004966;
-}
-
-footer {
-  font-size: 14px;
+/* Estilo personalizado para el título principal */
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000;
 }
